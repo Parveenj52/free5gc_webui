@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  free5gc:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-10-05T13:22:49.031206781Z"
+    dependencies:
+    - condition: deployWebui
+      name: free5gc-webui
+      repository: ""
+    description: A Helm chart to deploy Free5gc
+    digest: ebc6bf74b54fcf3107d59a5bcecd7726fcd3bd5d9492bfef24c57f56a318f3d7
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc
+    urls:
+    - free5gc-1.1.7.tgz
+    version: 1.1.7
+generated: "2023-10-05T13:22:49.024917953Z"
